@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background: #eee;
+    background: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .header {
-    background: #1f2937;
+    background: #002366;
     color: #f9faf8;
 }
 
@@ -18,9 +18,9 @@ body {
 
 }
 
-.logo {
-    font-size: 32px;
-    font-weight: 900;
+.logo img {
+    width: 175px;
+    height: 75px;
 }
 
 ul {
@@ -40,26 +40,40 @@ a {
 /* info*/
 
 .title-body {
+    width: 1200px;
+    margin: auto;
     display: flex;
-    padding: 90px;
-    text-align: start;
-    flex-direction: column;
+    padding: 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+.ttx{
+    
 }
 
 .header-body { 
-    font-size: 24px;
+    padding-bottom: 10px;
+    font-size: 48px;
     font-weight: bold;
-    font-variant: ;
-
-
 }
 
 .body-text {
     font-size: 18px;
 }
 
-.button{
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: none;
     color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.player img{
+    transform: scale(0.75);
 }
 
 /*box tabs*/
@@ -75,34 +89,91 @@ a {
 .container {
     display: flex;
     text-align: center;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 100px;
+    gap: 72px;
     
 }
 .box{
-    border: solid black 5px;
-    width: 80px;
-    height: 80px;
-    margin: 5px 20px 0px 20px;
+    max-width: 200px;
 }
+
+.box-body img {
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*quote*/
+
 .info-tab {
     display: flex;
     background: #e5e7eb;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 150px;
     color: #1f2937;
+    flex-direction: column;
+    margin: auto;
 }
 
 p{
+    width: 800px;
     font: 46px;
     font-style: italic;
 }
 
 .quote{
     font-weight: bolder;
-    font: 36px;
-    
+    font: 36px;    
 }
+
+/*yeezy*/
+
+.stem{
+    display: flex;
+    background: #F8F0E3;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 24px;
+    gap: 16px;
+    width: 800px;
+    border-radius: 52px;
+    box-shadow: 16px 4px 16px rgba(0,0,0,.2);
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.yeezy img{
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/*footer*/
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    color: #eee;
+  }
